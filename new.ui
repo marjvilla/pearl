@@ -1,0 +1,3122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1094</width>
+    <height>1186</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>25</pointsize>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_10">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <widget class="QWidget" name="welcome_page">
+       <layout class="QGridLayout" name="gridLayout">
+        <property name="leftMargin">
+         <number>50</number>
+        </property>
+        <property name="rightMargin">
+         <number>50</number>
+        </property>
+        <item row="5" column="0">
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="4" column="0">
+           <widget class="QPushButton" name="bigPatientButton">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <italic>false</italic>
+              <bold>true</bold>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Patient Login</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="label_5">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <italic>false</italic>
+              <bold>true</bold>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    font-size: 64px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+            </property>
+            <property name="text">
+             <string>PEARL</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="4" column="4">
+           <widget class="QPushButton" name="bigStaffButton">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+              <underline>true</underline>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Staff Login</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLabel" name="label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>25</pointsize>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::StyledPanel</enum>
+            </property>
+            <property name="lineWidth">
+             <number>5</number>
+            </property>
+            <property name="midLineWidth">
+             <number>5</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>../sebu3.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="6" column="1">
+           <widget class="QPushButton" name="testModeButton">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font-size: 16px;
+    color: #888888;
+    background-color: transparent;
+    border: 1px solid #888888;
+    border-radius: 6px;
+    padding: 6px 20px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Test Mode</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="9" column="0">
+         <widget class="QPushButton" name="terminateProgram">
+          <property name="styleSheet">
+           <string notr="true">QPushButton#terminateProgram {
+    background-color: #f44336; 
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+QPushButton#terminateProgram:pressed {
+    background-color: #d32f2f; 
+}</string>
+          </property>
+          <property name="text">
+           <string>CLOSE PROGRAM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="0">
+         <spacer name="verticalSpacer_16">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="label_7">
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <pointsize>-1</pointsize>
+            <italic>true</italic>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Preeclampsia Early Assessment of Risk via Longitudinal data</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <spacer name="verticalSpacer_18">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="patient_login_page">
+       <layout class="QGridLayout" name="gridLayout_13">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <property name="leftMargin">
+           <number>50</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>50</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="patientLoginTitleLabel">
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Patient Login</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="dobInPatientLoginLabel">
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 12px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Enter DOB</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <property name="margin">
+             <number>0</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDateEdit" name="dateLoginInput">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QDateEdit {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <property name="calendarPopup">
+             <bool>true</bool>
+            </property>
+            <property name="date">
+             <date>
+              <year>2000</year>
+              <month>1</month>
+              <day>1</day>
+             </date>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="dobInPatientLoginLabel_2">
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 12px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Enter Patient Identification Code</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="patientCodeInput">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="maxLength">
+             <number>4</number>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <property name="placeholderText">
+             <string>- - - -</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Expanding</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="patientLoginButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16776399</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Login</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="backFromPatientLoginButton">
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="patient_home_page">
+       <layout class="QGridLayout" name="gridLayout_11">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <property name="leftMargin">
+           <number>50</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>50</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="verticalSpacer_20">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="patientHomeScreenNameLabel">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 8px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Hello, {patient}!</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_33">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="patientBPRecentReadingLabel">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>10</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>22</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Enter your metrics manually below</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_21">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="gridLayout_10">
+            <property name="sizeConstraint">
+             <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+            </property>
+            <item row="4" column="1">
+             <widget class="QLabel" name="diastolicLabel">
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <italic>true</italic>
+                <bold>true</bold>
+                <underline>false</underline>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Diastolic</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QSpinBox" name="heartRateSpinBox">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QSpinBox {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+              </property>
+              <property name="wrapping">
+               <bool>false</bool>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+              <property name="buttonSymbols">
+               <enum>QAbstractSpinBox::ButtonSymbols::UpDownArrows</enum>
+              </property>
+              <property name="minimum">
+               <number>0</number>
+              </property>
+              <property name="maximum">
+               <number>300</number>
+              </property>
+              <property name="singleStep">
+               <number>0</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="systolicLabel">
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <italic>true</italic>
+                <bold>true</bold>
+                <underline>false</underline>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Systolic</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <layout class="QGridLayout" name="gridLayout_4"/>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLabel" name="label_2">
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <italic>true</italic>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Weight (lbs)</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="gesAgeLong">
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <italic>true</italic>
+                <bold>true</bold>
+                <underline>false</underline>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Gestational Age (Weeks)</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <layout class="QVBoxLayout" name="verticalLayout_9"/>
+            </item>
+            <item row="6" column="0">
+             <widget class="QSpinBox" name="inputWeight">
+              <property name="styleSheet">
+               <string notr="true">QSpinBox {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+              <property name="maximum">
+               <number>999</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QSpinBox" name="systolicSpinBox">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QSpinBox {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+              <property name="maximum">
+               <number>300</number>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QSpinBox" name="diastolicSpinBox">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QSpinBox {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+              <property name="maximum">
+               <number>200</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_12">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="1" column="0">
+             <spacer name="verticalSpacer_13">
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Policy::Minimum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="6" column="0">
+             <spacer name="verticalSpacer_15">
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Policy::Minimum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="5" column="0">
+             <widget class="QPushButton" name="calibrateBraceletButton">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>55</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 55px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Calibrate PTT Bracelet</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <widget class="QPushButton" name="backFromPatientHomeButton">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Return</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QPushButton" name="startModelFromPatientButton">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>55</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 55px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Risk Assess</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QPushButton" name="savePatientBPReadingButton">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>55</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 55px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Save Readings</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QPushButton" name="bpReadingsBluetoothButton">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>55</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 55px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Get Blood Pressure Readings</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <spacer name="verticalSpacer_14">
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Policy::Minimum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="registration_info_page">
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="2" column="0">
+         <widget class="QPushButton" name="cancelPatientRegistration">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Cancel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QScrollArea" name="registrationInfoScroll">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="patientRegisterInfoScroll">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1044</width>
+             <height>1044</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_6">
+            <item row="1" column="0" colspan="2">
+             <widget class="QLineEdit" name="patientFirstNameInput">
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 45px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Enter First Name</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="patientHeightInches">
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 45px;
+}</string>
+              </property>
+              <property name="placeholderText">
+               <string>Enter Height (Inches)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0" colspan="2">
+             <widget class="QComboBox" name="raceComboBox">
+              <property name="font">
+               <font>
+                <family>.AppleSystemUIFont</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QComboBox {
+    font-size: 30px;
+    padding: 40px;
+    border: 2px solid #1e88e5;
+    border-radius: 8px;
+    background: white;
+}
+
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 60px;
+    border-left: 2px solid #1e88e5;
+}
+
+
+QComboBox::down-arrow {
+    image: url(down_arrow.png); 
+    width: 20px;
+    height: 20px;
+}
+
+
+QComboBox QAbstractItemView {
+    font-size: 24px;
+    border: 1px solid #1e88e5;
+    selection-background-color: #e3f2fd;
+    selection-color: black;
+}</string>
+              </property>
+              <property name="currentText">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Select Race</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Select Race</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Asian</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>White</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Black, African American or African Descent</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>American Indian or Alaska Native</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Native Hawaiian or Pacific Islander</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Asian Indian</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Other</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Prefer Not to Say</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="3" column="0" colspan="2">
+             <widget class="QLineEdit" name="patientAge">
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 45px;
+}</string>
+              </property>
+              <property name="inputMask">
+               <string/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="cursorPosition">
+               <number>0</number>
+              </property>
+              <property name="placeholderText">
+               <string>Enter Age</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0" colspan="2">
+             <widget class="QLineEdit" name="patientLastNameInput">
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 45px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Enter Last Name</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLineEdit" name="patientHeightFeet">
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 45px;
+}</string>
+              </property>
+              <property name="placeholderText">
+               <string>Enter Height (Feet)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0" colspan="2">
+             <widget class="QPushButton" name="page1to2">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Next</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0" colspan="2">
+             <widget class="QCheckBox" name="hispanicCheck">
+              <property name="styleSheet">
+               <string notr="true">QCheckBox {
+    font-size: 32px;       /* Makes the text readable */
+    padding: 20px;         /* Adds touchable space around the box */
+    spacing: 30px;         /* Space between the box and the text */
+}
+
+/* This makes the actual square box bigger */
+QCheckBox::indicator {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #1e88e5;
+    border-radius: 4px;
+}
+
+/* Optional: Add a nice color when checked */
+QCheckBox::indicator:checked {
+    background-color: #1e88e5;
+}</string>
+              </property>
+              <property name="text">
+               <string>Hispanic? Check if YES</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="registration_risk_page">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QLabel" name="pastMedicalInfoLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    font-size: 64px;
+    font-weight: bold;
+    padding: 30px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Confirm registration?</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="continueToRegistrationConfirmationButton">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Confirm</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="backToPatientInfoButton">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Cancel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="registration_info_page_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>5</number>
+        </property>
+        <property name="sizeConstraint">
+         <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+        </property>
+        <property name="leftMargin">
+         <number>12</number>
+        </property>
+        <property name="topMargin">
+         <number>12</number>
+        </property>
+        <property name="rightMargin">
+         <number>12</number>
+        </property>
+        <property name="bottomMargin">
+         <number>12</number>
+        </property>
+        <item>
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1044</width>
+             <height>1136</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <item>
+             <widget class="QLabel" name="dobInfoLabel">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>.AppleSystemUIFont</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+                <underline>true</underline>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12
+px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Enter DOB (M/DD/YY)</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QDateEdit" name="registrationDOBInput">
+              <property name="styleSheet">
+               <string notr="true">QDateEdit {
+    font-size: 30px;
+    padding: 15px;
+    border: 2px solid #1e88e5;
+    border-radius: 8px;
+    background: white;
+}
+
+QDateEdit::up-button, QDateEdit::down-button {
+    width: 60px;
+    background: #e3f2fd;
+    border: 1px solid #1e88e5;
+    border-radius: 4px;
+}
+
+QDateEdit::up-button:pressed, QDateEdit::down-button:pressed {
+    background: #1e88e5;
+}</string>
+              </property>
+              <property name="keyboardTracking">
+               <bool>false</bool>
+              </property>
+              <property name="displayFormat">
+               <string>MM/dd/yyyy</string>
+              </property>
+              <property name="calendarPopup">
+               <bool>true</bool>
+              </property>
+              <property name="timeSpec">
+               <enum>Qt::TimeSpec::LocalTime</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_25">
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Policy::Minimum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="gestationalAgeInfoLabel">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="font">
+               <font>
+                <family>.AppleSystemUIFont</family>
+                <pointsize>-1</pointsize>
+                <bold>true</bold>
+                <underline>true</underline>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12
+px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Enter Gestational Age (Weeks then Day)</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="gestationalAgeWeeksInput">
+              <property name="styleSheet">
+               <string notr="true">QSpinBox {
+    font-size: 30px;       /* Makes the numbers large and readable */
+    padding: 15px;         /* Adds breathing room inside the box */
+    border: 2px solid #1e88e5;
+    border-radius: 8px;    /* Softer, more modern edges */
+    background: white;
+}
+
+/* Increase the size of the up/down arrows */
+QSpinBox::up-button, QSpinBox::down-button {
+    width: 60px;           /* Crucial: Makes the tap target wide */
+    background: #e3f2fd;   /* Light blue background */
+    border: 1px solid #1e88e5;
+    border-radius: 4px;
+}
+
+/* Visual feedback when tapped */
+QSpinBox::up-button:pressed, QSpinBox::down-button:pressed {
+    background: #1e88e5;   /* Darker blue on tap */
+}</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="gestationalAgeDaysInput">
+              <property name="styleSheet">
+               <string notr="true">QSpinBox {
+    font-size: 30px;       /* Makes the numbers large and readable */
+    padding: 15px;         /* Adds breathing room inside the box */
+    border: 2px solid #1e88e5;
+    border-radius: 8px;    /* Softer, more modern edges */
+    background: white;
+}
+
+/* Increase the size of the up/down arrows */
+QSpinBox::up-button, QSpinBox::down-button {
+    width: 60px;           /* Crucial: Makes the tap target wide */
+    background: #e3f2fd;   /* Light blue background */
+    border: 1px solid #1e88e5;
+    border-radius: 4px;
+}
+
+/* Visual feedback when tapped */
+QSpinBox::up-button:pressed, QSpinBox::down-button:pressed {
+    background: #1e88e5;   /* Darker blue on tap */
+}</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_19">
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Policy::Minimum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="page2to3">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Next</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="registration_info_page_3">
+       <layout class="QVBoxLayout" name="verticalLayout_13">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <pointsize>-1</pointsize>
+            <bold>true</bold>
+            <underline>true</underline>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 8px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Medical History Checklist</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_23">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_8">
+          <property name="styleSheet">
+           <string notr="true">QCheckBox {
+    font-size: 32px;       /* Makes the text readable */
+    padding: 20px;         /* Adds touchable space around the box */
+    spacing: 30px;         /* Space between the box and the text */
+}
+
+/* This makes the actual square box bigger */
+QCheckBox::indicator {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #1e88e5;
+    border-radius: 4px;
+}
+
+/* Optional: Add a nice color when checked */
+QCheckBox::indicator:checked {
+    background-color: #1e88e5;
+}</string>
+          </property>
+          <property name="text">
+           <string>Chronic Hypertension</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_27">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_2">
+          <property name="styleSheet">
+           <string notr="true">QCheckBox {
+    font-size: 32px;       /* Makes the text readable */
+    padding: 20px;         /* Adds touchable space around the box */
+    spacing: 30px;         /* Space between the box and the text */
+}
+
+/* This makes the actual square box bigger */
+QCheckBox::indicator {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #1e88e5;
+    border-radius: 4px;
+}
+
+/* Optional: Add a nice color when checked */
+QCheckBox::indicator:checked {
+    background-color: #1e88e5;
+}</string>
+          </property>
+          <property name="text">
+           <string>Pregestational Diabetes</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_24">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox">
+          <property name="font">
+           <font>
+            <pointsize>-1</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QCheckBox {
+    font-size: 32px;       /* Makes the text readable */
+    padding: 20px;         /* Adds touchable space around the box */
+    spacing: 30px;         /* Space between the box and the text */
+}
+
+/* This makes the actual square box bigger */
+QCheckBox::indicator {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #1e88e5;
+    border-radius: 4px;
+}
+
+/* Optional: Add a nice color when checked */
+QCheckBox::indicator:checked {
+    background-color: #1e88e5;
+}</string>
+          </property>
+          <property name="text">
+           <string>Gestational / Other Diabetes</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_28">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_3">
+          <property name="font">
+           <font>
+            <pointsize>-1</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QCheckBox {
+    font-size: 32px;       /* Makes the text readable */
+    padding: 20px;         /* Adds touchable space around the box */
+    spacing: 30px;         /* Space between the box and the text */
+}
+
+/* This makes the actual square box bigger */
+QCheckBox::indicator {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #1e88e5;
+    border-radius: 4px;
+}
+
+/* Optional: Add a nice color when checked */
+QCheckBox::indicator:checked {
+    background-color: #1e88e5;
+}</string>
+          </property>
+          <property name="text">
+           <string>Ever Used Tobacco?</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_29">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_4">
+          <property name="font">
+           <font>
+            <pointsize>-1</pointsize>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QCheckBox {
+    font-size: 32px;       /* Makes the text readable */
+    padding: 20px;         /* Adds touchable space around the box */
+    spacing: 30px;         /* Space between the box and the text */
+}
+
+/* This makes the actual square box bigger */
+QCheckBox::indicator {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #1e88e5;
+    border-radius: 4px;
+}
+
+/* Optional: Add a nice color when checked */
+QCheckBox::indicator:checked {
+    background-color: #1e88e5;
+}</string>
+          </property>
+          <property name="text">
+           <string>Smoked Tobacco in the 3 Months Prior to Pregnancy?</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_32">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="page3to4">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 6px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Next</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="registration_info_page_4">
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QPushButton" name="page4toEnd">
+          <property name="text">
+           <string>Cont</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="registration_confirm_page">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="registrationThanksLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    font-size: 64px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Thank you for registering ___!</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_22">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="giveCodeLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    font-size: 64px;
+    font-weight: bold;
+    padding: 15px;
+}
+</string>
+          </property>
+          <property name="text">
+           <string>Your Code is: _______</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_26">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Minimum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="continueToLoginButton">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Continue to Patient Login</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="homeFromPatientRegistrationConfirmButton">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Return to Home</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="staff_login_page">
+       <layout class="QGridLayout" name="gridLayout_14">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <property name="leftMargin">
+           <number>50</number>
+          </property>
+          <property name="rightMargin">
+           <number>50</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="staffLoginLabel">
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    font-size: 64px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Staff Login</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Enter Staff Identification Code</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="staffCodeInput">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+            </property>
+            <property name="text">
+             <string>- - - -</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="continueToStaffPageButton">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Login</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_10">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="backFromStaffLoginButton">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="staff_dashboard_page">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="leftMargin">
+         <number>50</number>
+        </property>
+        <property name="topMargin">
+         <number>10</number>
+        </property>
+        <property name="rightMargin">
+         <number>50</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="0" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_14">
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="verticalSpacer_34">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="toNewPatientRegistration">
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Register New Patient</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+              <underline>true</underline>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Lookup Existing Patient</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <property name="margin">
+             <number>0</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="patientSearchInput">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Enter Patient Name</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QScrollArea" name="scrollForPatientNames">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Times New Roman</family>
+              <pointsize>15</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">/* 1. Target the box border and height */
+QScrollArea#scrollForPatientNames {
+    border: 4px solid #1e88e5 !important;
+    border-radius: 12px;
+    min-height: 300px !important;
+}
+
+/* 2. Target ANY label that appears inside that scroll area */
+#scrollForPatientNames QLabel {
+    font-size: 38px !important;
+    font-weight: bold !important;
+    color: #1e88e5 !important;
+    padding: 12px !important;
+    min-height: 50px !important; /* This forces the row to be tall */
+    background-color: white;
+    border-bottom: 2px solid #dcdcdc;
+}</string>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <widget class="QWidget" name="widgetForStaffSearch">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>960</width>
+               <height>878</height>
+              </rect>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Times New Roman</family>
+               <pointsize>24</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_12">
+              <item>
+               <layout class="QVBoxLayout" name="vBoxPatientStaffSearch">
+                <property name="sizeConstraint">
+                 <enum>QLayout::SizeConstraint::SetMinimumSize</enum>
+                </property>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_17">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Back To Home</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_36">
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="staff_patient_detail_page">
+       <layout class="QGridLayout" name="gridLayout_12">
+        <item row="0" column="0">
+         <widget class="QLabel" name="patientDetailTitleLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+          </property>
+          <property name="text">
+           <string>____ Information Page</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="patientGeneralInfoLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Patient General Info</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QScrollArea" name="patientPastBPScroll">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="pastBpReadingsScroll">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1044</width>
+             <height>935</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_9">
+            <item row="0" column="0">
+             <widget class="QLabel" name="pastBPReadingsLabel">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>100</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+}</string>
+              </property>
+              <property name="text">
+               <string>Patient Past Readings Label</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="backFromPatientPastInfoButton">
+          <property name="text">
+           <string>Go Back</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="calibration_page">
+       <layout class="QVBoxLayout" name="verticalLayout_calib">
+        <property name="leftMargin">
+         <number>50</number>
+        </property>
+        <property name="topMargin">
+         <number>15</number>
+        </property>
+        <property name="rightMargin">
+         <number>50</number>
+        </property>
+        <property name="bottomMargin">
+         <number>15</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="calibTitleLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel { font-size: 32px; font-weight: bold; padding: 4px; }</string>
+          </property>
+          <property name="text">
+           <string>PTT Bracelet Calibration</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="calibStatusLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel { font-size: 16px; color: #1e88e5; padding: 4px; }</string>
+          </property>
+          <property name="text">
+           <string>Enter the BP from a reference cuff, then press Take PTT. Do this twice.</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="calib1HeaderLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel { font-size: 20px; font-weight: bold; padding: 4px; }</string>
+          </property>
+          <property name="text">
+           <string>Reading 1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_calib1bp">
+          <item>
+           <widget class="QLabel" name="calibSBP1Label">
+            <property name="styleSheet">
+             <string notr="true">QLabel { font-size: 18px; font-weight: bold; }</string>
+            </property>
+            <property name="text">
+             <string>Systolic</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="calibSBP1">
+            <property name="styleSheet">
+             <string notr="true">QSpinBox { font-size: 20px; font-weight: bold; padding: 8px; }</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>60</number>
+            </property>
+            <property name="maximum">
+             <number>220</number>
+            </property>
+            <property name="value">
+             <number>120</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="calibSlash1Label">
+            <property name="styleSheet">
+             <string notr="true">QLabel { font-size: 24px; font-weight: bold; }</string>
+            </property>
+            <property name="text">
+             <string>/</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="calibDBP1Label">
+            <property name="styleSheet">
+             <string notr="true">QLabel { font-size: 18px; font-weight: bold; }</string>
+            </property>
+            <property name="text">
+             <string>Diastolic</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="calibDBP1">
+            <property name="styleSheet">
+             <string notr="true">QSpinBox { font-size: 20px; font-weight: bold; padding: 8px; }</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>40</number>
+            </property>
+            <property name="maximum">
+             <number>140</number>
+            </property>
+            <property name="value">
+             <number>80</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_calib1ptt">
+          <item>
+           <widget class="QPushButton" name="calibReadPTT1Button">
+            <property name="styleSheet">
+             <string notr="true">QPushButton { font-size: 18px; font-weight: bold; padding: 10px; min-height: 50px; }</string>
+            </property>
+            <property name="text">
+             <string>Take PTT Reading 1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="calibPTT1ResultLabel">
+            <property name="styleSheet">
+             <string notr="true">QLabel { font-size: 18px; font-weight: bold; padding: 8px; color: #2e7d32; }</string>
+            </property>
+            <property name="text">
+             <string>PTT: ---</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="calib2HeaderLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel { font-size: 20px; font-weight: bold; padding: 4px; }</string>
+          </property>
+          <property name="text">
+           <string>Reading 2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_calib2bp">
+          <item>
+           <widget class="QLabel" name="calibSBP2Label">
+            <property name="styleSheet">
+             <string notr="true">QLabel { font-size: 18px; font-weight: bold; }</string>
+            </property>
+            <property name="text">
+             <string>Systolic</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="calibSBP2">
+            <property name="styleSheet">
+             <string notr="true">QSpinBox { font-size: 20px; font-weight: bold; padding: 8px; }</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>60</number>
+            </property>
+            <property name="maximum">
+             <number>220</number>
+            </property>
+            <property name="value">
+             <number>120</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="calibSlash2Label">
+            <property name="styleSheet">
+             <string notr="true">QLabel { font-size: 24px; font-weight: bold; }</string>
+            </property>
+            <property name="text">
+             <string>/</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="calibDBP2Label">
+            <property name="styleSheet">
+             <string notr="true">QLabel { font-size: 18px; font-weight: bold; }</string>
+            </property>
+            <property name="text">
+             <string>Diastolic</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="calibDBP2">
+            <property name="styleSheet">
+             <string notr="true">QSpinBox { font-size: 20px; font-weight: bold; padding: 8px; }</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <property name="minimum">
+             <number>40</number>
+            </property>
+            <property name="maximum">
+             <number>140</number>
+            </property>
+            <property name="value">
+             <number>80</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_calib2ptt">
+          <item>
+           <widget class="QPushButton" name="calibReadPTT2Button">
+            <property name="styleSheet">
+             <string notr="true">QPushButton { font-size: 18px; font-weight: bold; padding: 10px; min-height: 50px; }</string>
+            </property>
+            <property name="text">
+             <string>Take PTT Reading 2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="calibPTT2ResultLabel">
+            <property name="styleSheet">
+             <string notr="true">QLabel { font-size: 18px; font-weight: bold; padding: 8px; color: #2e7d32; }</string>
+            </property>
+            <property name="text">
+             <string>PTT: ---</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_calib">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Expanding</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="saveCalibrationButton">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    min-height: 55px;
+    background-color: #2e7d32;
+    color: white;
+    border-radius: 8px;
+}
+QPushButton:disabled {
+    background-color: #aaaaaa;
+    color: #dddddd;
+}</string>
+          </property>
+          <property name="text">
+           <string>Save Calibration</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="backFromCalibrationButton">
+          <property name="styleSheet">
+           <string notr="true">QPushButton { font-size: 18px; font-weight: bold; padding: 10px; min-height: 45px; }</string>
+          </property>
+          <property name="text">
+           <string>Back</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="device_management_page"/>
+      <widget class="QWidget" name="model_result_page"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

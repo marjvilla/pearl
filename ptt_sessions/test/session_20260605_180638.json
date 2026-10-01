@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "session_id": "20260605_180638",
+  "is_test_session": true,
+  "waveform_csv": "test/raw_20260605_180638.csv",
+  "reference_bp": {
+    "systolic": 134,
+    "diastolic": 72,
+    "measured_with": "manual_cuff"
+  },
+  "patient": {
+    "code": "TEST0000",
+    "first_name": "Test",
+    "last_name": "Patient",
+    "dob": "2000-01-01",
+    "age": 25,
+    "race": "Unknown",
+    "is_hispanic": false,
+    "height_inches": 65,
+    "gestational_weeks": 20,
+    "gestational_days": 0,
+    "risk_factors": []
+  },
+  "calibration": {
+    "source": "population_defaults",
+    "sbp_a": 517.7,
+    "sbp_b": 71.4,
+    "dbp_a": 340.0,
+    "dbp_b": 46.0
+  },
+  "measurement": {
+    "timestamp": "2026-06-05T18:06:38",
+    "mode": "bp_measurement",
+    "median_ptt_ms": 180.0,
+    "estimated_sbp": 147,
+    "estimated_dbp": 101,
+    "pttraw_values_ms": [
+      157.7,
+      181.9,
+      174.9,
+      173.0,
+      180.3,
+      170.5,
+      180.6,
+      192.3,
+      185.5,
+      180.7,
+      191.8,
+      182.2,
+      182.1,
+      183.2,
+      189.6,
+      176.4,
+      180.9,
+      168.8,
+      186.5,
+      176.7,
+      179.8
+    ]
+  },
+  "quality": {
+    "fire_count": 37,
+    "ptt_accepted": 21,
+    "ptt_rejected": 14,
+    "acceptance_rate_pct": 60.0,
+    "rejection_breakdown": {
+      "too_long": 13,
+      "irregular_rr": 1
+    }
+  }
+}

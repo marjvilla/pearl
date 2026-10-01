@@ -1,0 +1,22 @@
+STATUS:AWAKE
+PTTBAD:424.3 (too long)
+PTTRAW:177.6
+PTTRAW:300.1
+PTTBAD:98.0 (too short)
+PTTBAD:142.5 (too short)
+PTTBAD:37.1 (too short)
+PTTBAD:82.2 (too short)
+PTTBAD:605.1 (too long)
+PTTBAD:48.9 (too short)
+PTTBAD:517.7 (too long)
+PTTBAD:560.9 (too long)
+PTTBAD:562.1 (too long)
+PTTBAD:517.9 (too long)
+PTTBAD:420.7 (too long)
+PTTBAD:502.2 (too long)
+PTTBAD:148.0 (too short)
+PTTBAD:37.0 (too short)
+PTTRAW:345.4
+PTTRAW:283.5
+PTTBAD:107.3 (too short)
+PTTBAD:152.7 (irregular RR)
